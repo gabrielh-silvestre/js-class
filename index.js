@@ -49,6 +49,10 @@ const randomNumber = Math.floor(Math.random() * 10);
 const isEven = randomNumber % 2 === 0;
 if (isEven) {
   console.log('É par!', randomNumber);
+} else if (randomNumber < 5) {
+  console.log('Não é par, mas é menor que 5', randomNumber);
+} else {
+  console.log('Não é nada', randomNumber);
 }
 
 /*
