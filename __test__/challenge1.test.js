@@ -1,6 +1,6 @@
-const { fizzBuzz } = require("challenge1.js");
+const { fizzBuzz } = require("../challenge1");
 
-describe("Desafio - #1", () => {
+describe("Desafio - #1 FizzBuzz", () => {
   it("Testa se a função fizzBuzz existe", () => {
     expect(fizzBuzz).toBeDefined();
   });
