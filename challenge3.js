@@ -1,5 +1,3 @@
-module.exports = { triangleType };
-
 const triangleType = (a, b, c) => {
   const isEquilateral = a === b && b === c;
   const isIsosceles = a === b || b === c || a === c;
@@ -9,3 +7,5 @@ const triangleType = (a, b, c) => {
   if (isIsosceles) return "isósceles";
   if (isScalene) return "escaleno";
 };
+
+module.exports = { triangleType };

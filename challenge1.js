@@ -1,5 +1,3 @@
-module.exports = { fizzBuzz };
-
 const fizzBuzz = (num) => {
   const isFizzBuzz = num % 3 === 0 && num % 5 === 0;
   const isFizz = num % 3 === 0;
@@ -10,3 +8,5 @@ const fizzBuzz = (num) => {
   if (isBuzz) return "buzz";
   return "trem";
 };
+
+module.exports = { fizzBuzz };
